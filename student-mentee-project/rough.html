@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Cards</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <img src="../public/senior.jpg" alt="John Doe">
+        <h2>John Doe</h2>
+        <p>Software Engineer</p>
+        <p>Reg No: 123456</p>
+        <p>john.doe@example.com</p>
+    </div>
+
+    <div class="card">
+        <img src="../public/senior.jpg" alt="Jane Smith">
+        <h2>Jane Smith</h2>
+        <p>Product Manager</p>
+        <p>Reg No: 789012</p>
+        <p>jane.smith@example.com</p>
+    </div>
+
+    <div class="card">
+        <img src="../public/senior.jpg" alt="Emily Johnson">
+        <h2>Emily Johnson</h2>
+        <p>Graphic Designer</p>
+        <p>Reg No: 345678</p>
+        <p>emily.johnson@example.com</p>
+    </div>
+</body>
+</html>
+
+
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+p {
+    color: #777;
+    margin: 10px 0;
+}
+
+</style>
